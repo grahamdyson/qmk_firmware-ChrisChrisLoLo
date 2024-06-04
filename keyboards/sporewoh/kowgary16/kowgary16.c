@@ -19,9 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (clockwise) {
-        tap_code_delay(KC_VOLU, 10);
+        tap_code_delay(KC_WH_D, 10);
     } else {
-        tap_code_delay(KC_VOLD, 10);
+        tap_code_delay(KC_WH_U, 10);
     }
     return false;
 }
